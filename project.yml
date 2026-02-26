@@ -1,0 +1,19 @@
+name: WeatherApp
+options:
+  bundleIdPrefix: com.antonioguardado
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+
+targets:
+  WeatherApp:
+    type: application
+    platform: iOS
+    sources:
+      - WeatherApp
+    settings:
+      base:
+        INFOPLIST_FILE: WeatherApp/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.antonioguardado.WeatherApp
+        SWIFT_VERSION: "5.9"
+        DEVELOPMENT_TEAM: ""
